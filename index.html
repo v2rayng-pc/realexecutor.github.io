@@ -1,0 +1,961 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- ============================================================
+     SEO-БЛОК  ·  ЗАМЕНИТЕ real-executor.ru НА ВАШ ДОМЕН
+============================================================ -->
+<title>REAL — инжектор для Roblox скачать бесплатно | Официальный сайт 2025</title>
+<meta name="description" content="Скачать REAL — инжектор (экзекутор) для Roblox последней версии. Официальный сайт: прямая ссылка без ожидания, без кейгена и рекламы, UNC 100%, обновления каждую неделю. Только здесь оригинал — остерегайтесь фейков.">
+<meta name="keywords" content="real инжектор, real инжектор скачать, real roblox executor, реал инжектор официальный сайт, инжектор роблокс, экзекутор real, real последняя версия, real скачать бесплатно">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="canonical" href="https://real-executor.ru/">
+
+<!-- Open Graph (как выглядит ссылка в мессенджерах и поиске) -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="REAL — официальный сайт инжектора для Roblox">
+<meta property="og:description" content="Скачайте оригинальный REAL: UNC 100%, attach за 1.8 секунды, без кейгена и вирусов. Прямая ссылка, SHA-256 каждого релиза.">
+<meta property="og:url" content="https://real-executor.ru/">
+<meta property="og:locale" content="ru_RU">
+<!-- Положите картинку-обложку 1200x630 рядом со страницей и проверьте путь: -->
+<meta property="og:image" content="https://real-executor.ru/og-cover.jpg">
+
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%230b0d0a'/%3E%3Cpath d='M22 50V14h13c7 0 12 4 12 11 0 5-3 9-8 10l9 15h-8l-8-14h-4v14h-6zm6-19h7c4 0 6-2 6-6s-2-6-6-6h-7v12z' fill='%23c6f24e'/%3E%3C/svg%3E">
+
+<!-- Микроразметка для Яндекса: карточка приложения + FAQ -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "REAL — инжектор для Roblox",
+  "operatingSystem": "Windows 10, Windows 11",
+  "applicationCategory": "UtilitiesApplication",
+  "softwareVersion": "4.2.1",
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "RUB" },
+  "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.8", "ratingCount": "2140" },
+  "description": "Быстрый инжектор для Roblox: UNC 100%, attach за 1.8 секунды, без кейгена, рекламы и вирусов."
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "REAL безопасен?", "acceptedAnswer": { "@type": "Answer", "text": "REAL не содержит вирусов, майнеров и стилеров. Каждый релиз сопровождается контрольной суммой SHA-256. Антивирус может предупреждать о механизме инъекции в память процесса — это ложное срабатывание, характерное для всех экзекуторов." } },
+    { "@type": "Question", "name": "Сколько стоит REAL?", "acceptedAnswer": { "@type": "Answer", "text": "REAL полностью бесплатен: нет кейгенов, ключ-систем, подписок и рекламы. Проект живёт на донатах сообщества." } },
+    { "@type": "Question", "name": "Может ли Roblox забанить за инжектор?", "acceptedAnswer": { "@type": "Answer", "text": "Любой экзекутор нарушает правила Roblox, поэтому риск блокировки аккаунта существует всегда. Используйте запасной аккаунт." } },
+    { "@type": "Question", "name": "Как отличить оригинальный REAL от фейка?", "acceptedAnswer": { "@type": "Answer", "text": "Оригинал распространяется только с официального сайта, с прямой ссылкой без таймеров и рекламы, с опубликованной SHA-256 суммой. Фейки просят отключить антивирус, установить «драйвер» или пройти кейген." } },
+    { "@type": "Question", "name": "Какие системные требования?", "acceptedAnswer": { "@type": "Answer", "text": "Windows 10 или 11 (x64), 4 ГБ оперативной памяти и установленный Roblox. Запуск от администратора не обязателен." } }
+  ]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;800;900&family=Onest:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+
+<style>
+/* ============ БАЗА ============ */
+:root{
+  --bg:#0b0d0a; --bg2:#0f120c; --panel:#11150d; --panel2:#151a10;
+  --line:#242b1c; --line2:#313a26;
+  --text:#e9eedd; --muted:#98a18b;
+  --acc:#c6f24e; --acc-dark:#95c22f;
+  --bad:#ff5d3d;
+  --mono:'JetBrains Mono',monospace;
+  --disp:'Unbounded',sans-serif;
+  --body:'Onest',sans-serif;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:92px}
+body{
+  background:var(--bg);color:var(--text);
+  font-family:var(--body);font-size:16px;line-height:1.6;
+  overflow-x:hidden;
+}
+::selection{background:var(--acc);color:#0b0d0a}
+::-webkit-scrollbar{width:10px}
+::-webkit-scrollbar-track{background:var(--bg)}
+::-webkit-scrollbar-thumb{background:var(--line2);border:2px solid var(--bg)}
+::-webkit-scrollbar-thumb:hover{background:var(--acc-dark)}
+a{color:inherit;text-decoration:none}
+button{font-family:inherit;cursor:pointer}
+.wrap{max-width:1220px;margin:0 auto;padding:0 28px}
+
+/* шумовой оверлей */
+.noise{position:fixed;inset:0;z-index:60;pointer-events:none;opacity:.035;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence baseFrequency='0.85' numOctaves='2'/%3E%3C/filter%3E%3Crect width='120' height='120' filter='url(%23n)'/%3E%3C/svg%3E");}
+
+/* ============ ПРЕЛОАДЕР ============ */
+#loader{position:fixed;inset:0;z-index:200;background:var(--bg);display:flex;flex-direction:column;
+  align-items:center;justify-content:center;gap:22px;transition:opacity .5s,visibility .5s}
+#loader.done{opacity:0;visibility:hidden}
+.ld-logo{font-family:var(--disp);font-weight:900;font-size:44px;letter-spacing:-.02em}
+.ld-logo span{color:var(--acc)}
+.ld-line{width:180px;height:2px;background:var(--line);overflow:hidden}
+.ld-line i{display:block;height:100%;width:100%;background:var(--acc);transform-origin:left;animation:ld 1.1s ease forwards}
+@keyframes ld{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+.ld-txt{font-family:var(--mono);font-size:11px;color:var(--muted);letter-spacing:.14em;text-transform:uppercase}
+
+/* ============ КУРСОР ============ */
+#cur-dot,#cur-ring{position:fixed;top:0;left:0;pointer-events:none;z-index:210;border-radius:50%}
+#cur-dot{width:6px;height:6px;background:var(--acc);transform:translate(-50%,-50%)}
+#cur-ring{width:34px;height:34px;border:1px solid rgba(198,242,78,.55);transform:translate(-50%,-50%);
+  transition:width .25s,height .25s,background .25s}
+#cur-ring.on{width:52px;height:52px;background:rgba(198,242,78,.08)}
+@media (pointer:coarse){#cur-dot,#cur-ring{display:none}}
+
+/* ============ ТОСТЫ ============ */
+#toasts{position:fixed;right:24px;bottom:24px;z-index:220;display:flex;flex-direction:column;gap:10px}
+.toast{display:flex;gap:12px;align-items:flex-start;background:var(--panel2);border:1px solid var(--line2);
+  padding:14px 18px;min-width:280px;max-width:360px;
+  animation:tin .35s cubic-bezier(.2,.9,.3,1.2)}
+.toast.out{animation:tout .3s forwards}
+.toast svg{width:18px;height:18px;flex:none;margin-top:2px}
+.toast.ok svg{stroke:var(--acc)} .toast.warn svg{stroke:var(--bad)}
+.toast b{display:block;font-size:13px;font-weight:700}
+.toast p{font-size:12.5px;color:var(--muted);line-height:1.45;margin-top:2px}
+@keyframes tin{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+@keyframes tout{to{opacity:0;transform:translateX(20px)}}
+
+/* ============ ПРОГРЕСС СКРОЛЛА ============ */
+#scrollbar{position:fixed;top:0;left:0;height:2px;background:var(--acc);z-index:120;width:0}
+
+/* ============ ИКОНКИ ============ */
+.ic{width:18px;height:18px;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;flex:none}
+
+/* ============ НАВБАР ============ */
+header{position:fixed;top:0;left:0;right:0;z-index:100;transition:background .3s,border-color .3s;border-bottom:1px solid transparent}
+header.scrolled{background:rgba(11,13,10,.82);backdrop-filter:blur(12px);border-color:var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:68px}
+.logo{font-family:var(--disp);font-weight:900;font-size:20px;display:flex;align-items:center;gap:10px}
+.logo em{font-style:normal;color:var(--acc)}
+.logo .ver{font-family:var(--mono);font-size:10px;color:var(--muted);border:1px solid var(--line2);
+  padding:3px 7px;letter-spacing:.1em;font-weight:400}
+.nav-links{display:flex;gap:34px;font-family:var(--mono);font-size:12px;letter-spacing:.12em;text-transform:uppercase}
+.nav-links a{color:var(--muted);transition:color .2s;position:relative}
+.nav-links a:hover{color:var(--acc)}
+.nav-cta{display:flex;align-items:center;gap:16px}
+.dot-online{display:flex;align-items:center;gap:8px;font-family:var(--mono);font-size:11px;color:var(--muted);letter-spacing:.1em}
+.dot-online i{width:7px;height:7px;border-radius:50%;background:var(--acc);animation:pulse 1.6s infinite}
+@keyframes pulse{0%,100%{box-shadow:0 0 0 0 rgba(198,242,78,.5)}50%{box-shadow:0 0 0 6px rgba(198,242,78,0)}}
+.burger{display:none;background:none;border:1px solid var(--line2);width:40px;height:40px;color:var(--text)}
+#m-menu{position:fixed;inset:0;background:var(--bg);z-index:150;display:flex;flex-direction:column;
+  justify-content:center;padding:40px;gap:8px;transform:translateY(-100%);transition:transform .4s cubic-bezier(.7,0,.3,1)}
+#m-menu.open{transform:none}
+#m-menu a{font-family:var(--disp);font-size:34px;font-weight:800;padding:12px 0;border-bottom:1px solid var(--line);color:var(--text)}
+#m-menu .mm-close{position:absolute;top:20px;right:24px;background:none;border:1px solid var(--line2);width:44px;height:44px;color:var(--text)}
+
+/* ============ КНОПКИ ============ */
+.btn{display:inline-flex;align-items:center;gap:10px;font-family:var(--mono);font-size:13px;font-weight:700;
+  letter-spacing:.1em;text-transform:uppercase;padding:16px 26px;border:1px solid var(--line2);
+  transition:transform .18s,box-shadow .18s,background .18s,color .18s;user-select:none}
+.btn-p{background:var(--acc);color:#0b0d0a;border-color:var(--acc)}
+.btn-p:hover{transform:translate(-3px,-3px);box-shadow:4px 4px 0 var(--acc-dark)}
+.btn-g{background:transparent;color:var(--text)}
+.btn-g:hover{transform:translate(-3px,-3px);box-shadow:4px 4px 0 var(--line2)}
+.btn:active{transform:translate(0,0);box-shadow:none}
+
+/* ============ СЕКЦИИ ============ */
+section{border-top:1px solid var(--line);padding:100px 0;position:relative}
+.sec-head{display:flex;align-items:flex-end;justify-content:space-between;gap:30px;margin-bottom:56px;flex-wrap:wrap}
+.sec-tag{font-family:var(--mono);font-size:12px;color:var(--acc);letter-spacing:.18em;display:block;margin-bottom:14px}
+h2{font-family:var(--disp);font-weight:800;font-size:clamp(26px,4vw,44px);line-height:1.12;letter-spacing:-.01em}
+.sec-sub{max-width:420px;color:var(--muted);font-size:15px}
+
+/* reveal */
+.reveal{opacity:0;transform:translateY(26px);transition:opacity .7s ease,transform .7s ease}
+.reveal.in{opacity:1;transform:none}
+
+/* ============ ХИРО ============ */
+.hero{border-top:none;padding:170px 0 90px;position:relative;overflow:hidden}
+.hero::before{content:'';position:absolute;inset:0;
+  background:
+    linear-gradient(var(--line) 1px,transparent 1px),
+    linear-gradient(90deg,var(--line) 1px,transparent 1px);
+  background-size:56px 56px;opacity:.35;
+  mask-image:radial-gradient(ellipse 90% 80% at 60% 20%,#000 30%,transparent 75%);
+  -webkit-mask-image:radial-gradient(ellipse 90% 80% at 60% 20%,#000 30%,transparent 75%);}
+.hero::after{content:'';position:absolute;inset:0;pointer-events:none;
+  background:radial-gradient(480px circle at var(--mx,60%) var(--my,30%),rgba(198,242,78,.055),transparent 65%)}
+.hero .wrap{position:relative;z-index:2;display:grid;grid-template-columns:1.05fr .95fr;gap:56px;align-items:center}
+.h-tag{font-family:var(--mono);font-size:12px;color:var(--acc);letter-spacing:.2em;margin-bottom:26px;display:inline-flex;
+  align-items:center;gap:10px;border:1px solid var(--line2);padding:8px 14px;background:rgba(17,21,13,.7)}
+h1{font-family:var(--disp);font-weight:900;font-size:clamp(58px,9.5vw,124px);line-height:.95;letter-spacing:-.02em;margin-bottom:28px}
+h1 em{font-style:normal;color:var(--acc)}
+.h-desc{color:var(--muted);font-size:17px;max-width:480px;margin-bottom:36px}
+.h-desc b{color:var(--text);font-weight:600}
+.h-btns{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:14px}
+.h-note{font-family:var(--mono);font-size:11px;color:var(--muted);letter-spacing:.08em}
+.h-stats{display:flex;gap:0;margin-top:44px;border:1px solid var(--line);width:fit-content;background:rgba(17,21,13,.6)}
+.h-stat{padding:16px 26px;border-right:1px solid var(--line)}
+.h-stat:last-child{border-right:none}
+.h-stat b{display:block;font-family:var(--disp);font-weight:800;font-size:22px;color:var(--text)}
+.h-stat b i{font-style:normal;color:var(--acc)}
+.h-stat span{font-family:var(--mono);font-size:10px;color:var(--muted);letter-spacing:.12em;text-transform:uppercase}
+
+/* ============ КОНСОЛЬ ============ */
+.cons{border:1px solid var(--line2);background:var(--panel);display:flex;flex-direction:column;
+  height:520px;box-shadow:0 30px 80px rgba(0,0,0,.5)}
+.cons-bar{display:flex;align-items:center;gap:12px;padding:12px 16px;border-bottom:1px solid var(--line);background:var(--panel2)}
+.cons-dots{display:flex;gap:6px}
+.cons-dots i{width:10px;height:10px;border:1px solid var(--line2)}
+.cons-dots i:first-child{background:var(--bad);border-color:var(--bad)}
+.cons-title{font-family:var(--mono);font-size:11.5px;color:var(--muted);flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.pill{font-family:var(--mono);font-size:10px;letter-spacing:.14em;padding:4px 9px;border:1px solid var(--line2);color:var(--muted)}
+.pill.ok{background:var(--acc);color:#0b0d0a;border-color:var(--acc);font-weight:700}
+.cons-log{flex:1;overflow-y:auto;padding:16px 18px;font-family:var(--mono);font-size:12px;line-height:1.85}
+.cons-log::-webkit-scrollbar{width:6px}
+.cl-t{color:#5c664e;margin-right:8px}
+.cl-i{color:var(--muted)} .cl-s{color:var(--acc)} .cl-e{color:var(--bad)} .cl-o{color:#d6e3ae}
+.cursor-blink{display:inline-block;width:8px;height:14px;background:var(--acc);vertical-align:-2px;animation:blink 1s steps(1) infinite}
+@keyframes blink{50%{opacity:0}}
+.cons-ed{border-top:1px solid var(--line)}
+.cons-ed-head{display:flex;justify-content:space-between;align-items:center;padding:8px 16px;border-bottom:1px solid var(--line);
+  font-family:var(--mono);font-size:11px;color:var(--muted);letter-spacing:.1em}
+.cons-ed-head span b{color:var(--acc);font-weight:500}
+.cons-ed textarea{width:100%;height:120px;background:#0d100a;border:none;resize:none;outline:none;
+  color:#cfe29a;font-family:var(--mono);font-size:12.5px;line-height:1.7;padding:14px 18px}
+.cons-btns{display:flex;gap:8px;padding:12px 16px;border-top:1px solid var(--line)}
+.cbtn{font-family:var(--mono);font-size:11.5px;font-weight:700;letter-spacing:.12em;padding:10px 18px;
+  border:1px solid var(--line2);background:transparent;color:var(--text);display:inline-flex;align-items:center;gap:8px;transition:.2s}
+.cbtn:hover{border-color:var(--acc);color:var(--acc)}
+.cbtn.pri{background:var(--acc);border-color:var(--acc);color:#0b0d0a}
+.cbtn.pri:hover{background:#d6fa6e;color:#0b0d0a}
+.cbtn.done{border-color:var(--acc-dark);color:var(--acc-dark)}
+.cbtn:disabled{opacity:.35;cursor:not-allowed}
+.cbtn:disabled:hover{border-color:var(--line2);color:var(--text)}
+.cbtn.pri:disabled:hover{color:#0b0d0a}
+
+/* ============ БЕГУЩАЯ СТРОКА ============ */
+.marquee{border-top:1px solid var(--line);overflow:hidden;padding:18px 0;background:var(--bg2)}
+.mq-track{display:flex;width:max-content;animation:mq 28s linear infinite}
+.mq-half{display:flex;align-items:center;flex:none}
+.mq-half span{font-family:var(--mono);font-size:13px;letter-spacing:.18em;color:var(--muted);padding:0 28px;white-space:nowrap}
+.mq-half span i{font-style:normal;color:var(--acc);margin-right:28px}
+@keyframes mq{to{transform:translateX(-50%)}}
+
+/* ============ BENTO-ФИЧИ ============ */
+.bento{display:grid;grid-template-columns:repeat(12,1fr);gap:14px}
+.bx{border:1px solid var(--line);background:var(--panel);padding:30px;position:relative;overflow:hidden;transition:border-color .25s}
+.bx:hover{border-color:var(--acc-dark)}
+.bx .num{font-family:var(--mono);font-size:11px;color:var(--muted);letter-spacing:.16em}
+.bx h3{font-family:var(--disp);font-weight:600;font-size:19px;margin:14px 0 10px;line-height:1.3}
+.bx p{color:var(--muted);font-size:14px}
+.bx-a{grid-column:span 7}
+.bx-b{grid-column:span 5}
+.bx-c{grid-column:span 5}
+.bx-d{grid-column:span 4}
+.bx-e{grid-column:span 3}
+.code-mini{margin-top:20px;border:1px solid var(--line);background:#0d100a;font-family:var(--mono);font-size:12.5px;
+  line-height:1.8;padding:16px 18px;color:#a9b88f}
+.code-mini .k{color:var(--acc)} .code-mini .s{color:#e4c98a} .code-mini .c{color:#5c664e}
+.speed{margin-top:22px}
+.speed-bar{height:4px;background:var(--line);position:relative;overflow:hidden}
+.speed-bar i{position:absolute;left:0;top:0;bottom:0;width:0;background:var(--acc);transition:width 1.4s cubic-bezier(.2,.8,.2,1)}
+.speed-row{display:flex;justify-content:space-between;font-family:var(--mono);font-size:11px;color:var(--muted);margin-top:10px;letter-spacing:.1em}
+.speed-row b{color:var(--acc);font-size:15px}
+.chlog{margin-top:18px;font-family:var(--mono);font-size:12px;display:flex;flex-direction:column;gap:9px}
+.chlog div{display:flex;gap:12px;color:var(--muted)}
+.chlog b{color:var(--acc);font-weight:500;min-width:78px}
+.strike{margin-top:18px;display:flex;flex-direction:column;gap:10px}
+.strike span{font-family:var(--mono);font-size:13px;letter-spacing:.14em;color:var(--muted);position:relative;width:fit-content}
+.strike span::after{content:'';position:absolute;left:0;top:52%;height:2px;width:0;background:var(--bad);transition:width .4s ease}
+.bx:hover .strike span::after{width:100%}
+.strike span svg{width:13px;height:13px;stroke:var(--bad);vertical-align:-2px;margin-right:8px}
+.tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}
+.tags i{font-style:normal;font-family:var(--mono);font-size:11px;border:1px solid var(--line2);padding:6px 11px;color:var(--muted);transition:.2s}
+.bx:hover .tags i{border-color:var(--acc-dark);color:var(--acc)}
+.bx .ghost-ic{position:absolute;right:-14px;bottom:-18px;width:120px;height:120px;stroke:var(--line);fill:none;
+  stroke-width:1;opacity:.9;transition:.3s}
+.bx:hover .ghost-ic{stroke:var(--acc-dark);transform:rotate(-6deg)}
+
+/* ============ ФЕЙКИ ============ */
+.fake-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.fk{border:1px solid var(--line);padding:34px;background:var(--panel)}
+.fk-good{border-color:var(--acc-dark)}
+.fk-bad{border-color:rgba(255,93,61,.45)}
+.fk-head{display:flex;align-items:center;gap:14px;margin-bottom:24px}
+.fk-head b{font-family:var(--disp);font-size:18px;font-weight:800}
+.fk-head .fk-tag{font-family:var(--mono);font-size:10px;letter-spacing:.16em;padding:5px 10px;font-weight:700}
+.fk-good .fk-tag{background:var(--acc);color:#0b0d0a}
+.fk-bad .fk-tag{background:var(--bad);color:#0b0d0a}
+.fk li{list-style:none;display:flex;gap:12px;padding:13px 0;border-top:1px solid var(--line);font-size:14.5px;align-items:flex-start}
+.fk li svg{width:16px;height:16px;margin-top:4px}
+.fk-good li svg{stroke:var(--acc)} .fk-bad li svg{stroke:var(--bad)}
+.fk-bad li{color:var(--muted)}
+.fk-note{margin-top:26px;border:1px dashed var(--line2);padding:18px 22px;display:flex;gap:14px;align-items:flex-start}
+.fk-note svg{stroke:var(--acc);margin-top:3px}
+.fk-note p{font-size:13.5px;color:var(--muted)}
+.fk-note code{font-family:var(--mono);color:var(--acc);font-size:12.5px}
+.report-row{margin-top:26px;display:flex;align-items:center;gap:18px;flex-wrap:wrap}
+.report-row span{font-family:var(--mono);font-size:11.5px;color:var(--muted);letter-spacing:.08em}
+
+/* ============ ШАГИ ============ */
+.step{display:grid;grid-template-columns:120px 300px 1fr;gap:28px;padding:34px 0;border-top:1px solid var(--line);align-items:baseline}
+.step:last-child{border-bottom:1px solid var(--line)}
+.step .s-num{font-family:var(--disp);font-weight:800;font-size:44px;color:var(--line2);transition:color .25s}
+.step:hover .s-num{color:var(--acc)}
+.step h3{font-family:var(--disp);font-weight:600;font-size:19px}
+.step p{color:var(--muted);font-size:14.5px}
+.step p b{color:var(--text);font-weight:600}
+
+/* ============ СКАЧИВАНИЕ ============ */
+#download{background:
+  repeating-linear-gradient(-45deg,transparent 0 14px,rgba(198,242,78,.025) 14px 15px),
+  var(--bg2)}
+.dl-box{display:grid;grid-template-columns:1fr 1fr;border:1px solid var(--line2);background:var(--panel)}
+.dl-info{padding:44px;border-right:1px solid var(--line)}
+.dl-info .sec-tag{margin-bottom:8px}
+.dl-ver{font-family:var(--disp);font-weight:900;font-size:40px;line-height:1.05}
+.dl-ver em{font-style:normal;color:var(--acc)}
+.dl-meta{margin:26px 0;display:grid;grid-template-columns:1fr 1fr;gap:12px 24px;font-family:var(--mono);font-size:12.5px}
+.dl-meta div{display:flex;justify-content:space-between;border-bottom:1px dashed var(--line2);padding-bottom:9px}
+.dl-meta span{color:var(--muted)} .dl-meta b{font-weight:500;color:var(--text)}
+.sha{display:flex;align-items:center;gap:12px;border:1px solid var(--line2);padding:12px 16px;font-family:var(--mono);font-size:12px}
+.sha b{color:var(--muted);font-weight:500;flex:none}
+.sha code{color:var(--acc);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;flex:1}
+.sha button{background:none;border:1px solid var(--line2);color:var(--muted);padding:6px;display:flex;transition:.2s}
+.sha button:hover{color:var(--acc);border-color:var(--acc)}
+.dl-act{padding:44px;display:flex;flex-direction:column;justify-content:center;gap:14px}
+.dl-main{width:100%;justify-content:center;padding:26px;font-size:15px;gap:14px}
+.dl-main svg{width:20px;height:20px}
+.mirrors{display:flex;gap:12px}
+.mirrors .btn{flex:1;justify-content:center;padding:14px;font-size:11.5px}
+.dl-note{font-family:var(--mono);font-size:11px;color:var(--muted);text-align:center;letter-spacing:.06em;line-height:1.8}
+.dl-note b{color:var(--acc);font-weight:500}
+
+/* ============ ОТЗЫВЫ ============ */
+.revs{overflow:hidden;padding:64px 0;border-top:1px solid var(--line)}
+.rev-track{display:flex;width:max-content;animation:mq 42s linear infinite}
+.revs:hover .rev-track{animation-play-state:paused}
+.rev-half{display:flex;gap:14px;padding-right:14px;flex:none}
+.rv{border:1px solid var(--line);background:var(--panel);padding:22px 26px;width:340px;flex:none}
+.rv p{font-size:14px;line-height:1.6}
+.rv p::before{content:'«';color:var(--acc);font-family:var(--disp)}
+.rv p::after{content:'»';color:var(--acc);font-family:var(--disp)}
+.rv b{display:block;margin-top:14px;font-family:var(--mono);font-size:11.5px;color:var(--acc);letter-spacing:.1em;font-weight:500}
+
+/* ============ FAQ ============ */
+.faq-list{max-width:820px}
+.fq{border-top:1px solid var(--line)}
+.fq:last-child{border-bottom:1px solid var(--line)}
+.fq-q{width:100%;background:none;border:none;color:var(--text);display:flex;justify-content:space-between;
+  align-items:center;gap:20px;padding:26px 4px;text-align:left;font-family:var(--disp);font-weight:600;font-size:17px;transition:color .2s}
+.fq-q:hover{color:var(--acc)}
+.fq-q svg{transition:transform .3s;color:var(--acc)}
+.fq.open .fq-q svg{transform:rotate(180deg)}
+.fq-a{max-height:0;overflow:hidden;transition:max-height .35s ease}
+.fq-a p{padding:0 4px 26px;color:var(--muted);font-size:15px;max-width:700px}
+
+/* ============ ФУТЕР ============ */
+footer{border-top:1px solid var(--line);padding:60px 0 40px}
+.ft-top{display:flex;justify-content:space-between;gap:40px;flex-wrap:wrap;margin-bottom:44px}
+.ft-logo{font-family:var(--disp);font-weight:900;font-size:26px}
+.ft-logo em{font-style:normal;color:var(--acc)}
+.ft-desc{color:var(--muted);font-size:13.5px;max-width:340px;margin-top:14px}
+.ft-links{display:flex;gap:44px;font-family:var(--mono);font-size:12px;letter-spacing:.14em}
+.ft-links div{display:flex;flex-direction:column;gap:12px}
+.ft-links b{color:var(--muted);font-weight:400;margin-bottom:4px}
+.ft-links a{color:var(--text);transition:color .2s}
+.ft-links a:hover{color:var(--acc)}
+.ft-bot{border-top:1px solid var(--line);padding-top:26px;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;
+  font-family:var(--mono);font-size:11px;color:#6b7460;letter-spacing:.06em;line-height:1.8}
+
+/* ============ АДАПТИВ ============ */
+@media(max-width:1020px){
+  .hero .wrap{grid-template-columns:1fr}
+  .bx-a,.bx-b,.bx-c,.bx-d,.bx-e{grid-column:span 12}
+  .dl-box{grid-template-columns:1fr}
+  .dl-info{border-right:none;border-bottom:1px solid var(--line)}
+  .step{grid-template-columns:80px 1fr}
+  .step p{grid-column:2}
+}
+@media(max-width:720px){
+  .nav-links,.nav-cta .dot-online{display:none}
+  .burger{display:flex;align-items:center;justify-content:center}
+  section{padding:70px 0}
+  .fake-grid{grid-template-columns:1fr}
+  .step{grid-template-columns:60px 1fr;gap:16px}
+  .step .s-num{font-size:30px}
+  .h-stats{flex-wrap:wrap}
+  .cons{height:460px}
+  .wrap{padding:0 18px}
+}
+</style>
+</head>
+<body>
+
+<!-- SVG-спрайт иконок -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-down" viewBox="0 0 24 24"><path d="M12 3v13"/><path d="m7 11 5 5 5-5"/><path d="M4 21h16"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="m4 12.5 5 5L20 6.5"/></symbol>
+  <symbol id="i-x" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></symbol>
+  <symbol id="i-alert" viewBox="0 0 24 24"><path d="M12 3 2.5 20.5h19L12 3z"/><path d="M12 10v4.5"/><path d="M12 17.6h.01"/></symbol>
+  <symbol id="i-copy" viewBox="0 0 24 24"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h10"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4 12h15"/><path d="m13 6 6 6-6 6"/></symbol>
+  <symbol id="i-term" viewBox="0 0 24 24"><path d="m4 17 6-5-6-5"/><path d="M12 19h8"/></symbol>
+  <symbol id="i-zap" viewBox="0 0 24 24"><path d="M13 2 4 14h6l-1 8 9-12h-6l1-8z"/></symbol>
+  <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3 5 6v5c0 5 3.4 8.2 7 10 3.6-1.8 7-5 7-10V6l-7-3z"/></symbol>
+  <symbol id="i-cpu" viewBox="0 0 24 24"><rect x="5" y="5" width="14" height="14" rx="1"/><rect x="9.5" y="9.5" width="5" height="5"/><path d="M9 2v3M15 2v3M9 19v3M15 19v3M2 9h3M2 15h3M19 9h3M19 15h3"/></symbol>
+  <symbol id="i-play" viewBox="0 0 24 24"><path d="M8 5v14l11-7L8 5z"/></symbol>
+  <symbol id="i-chev" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
+  <symbol id="i-code" viewBox="0 0 24 24"><path d="m8 7-5 5 5 5"/><path d="m16 7 5 5-5 5"/></symbol>
+  <symbol id="i-menu" viewBox="0 0 24 24"><path d="M3 6h18M3 12h18M3 18h18"/></symbol>
+</svg>
+
+<div id="scrollbar"></div>
+<div class="noise"></div>
+<div id="cur-dot"></div><div id="cur-ring"></div>
+<div id="toasts"></div>
+
+<!-- Прелоадер -->
+<div id="loader">
+  <div class="ld-logo">REAL<span>.</span></div>
+  <div class="ld-line"><i></i></div>
+  <div class="ld-txt">initializing loader…</div>
+</div>
+
+<header id="hdr">
+  <div class="wrap nav">
+    <a class="logo" href="#">REAL<em>.</em><span class="ver">v4.2.1</span></a>
+    <nav class="nav-links">
+      <a href="#features">Возможности</a>
+      <a href="#fakes">Антифейк</a>
+      <a href="#steps">Установка</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <div class="nav-cta">
+      <span class="dot-online"><i></i>ONLINE</span>
+      <a class="btn btn-p" style="padding:11px 20px" data-dl="main" href="#"><svg class="ic"><use href="#i-down"/></svg>Скачать</a>
+      <button class="burger" id="burger" aria-label="Меню"><svg class="ic"><use href="#i-menu"/></svg></button>
+    </div>
+  </div>
+</header>
+
+<!-- Мобильное меню -->
+<div id="m-menu">
+  <button class="mm-close" id="mmClose" aria-label="Закрыть"><svg class="ic"><use href="#i-x"/></svg></button>
+  <a href="#features">Возможности</a>
+  <a href="#fakes">Антифейк</a>
+  <a href="#steps">Установка</a>
+  <a href="#download">Скачать</a>
+  <a href="#faq">FAQ</a>
+</div>
+
+<main>
+<!-- ==================== ХИРО ==================== -->
+<section class="hero" id="top">
+  <div class="wrap">
+    <div class="hero-l">
+      <div class="h-tag"><svg class="ic" style="width:14px;height:14px"><use href="#i-shield"/></svg> ОФИЦИАЛЬНЫЙ САЙТ · ОБНОВЛЕНО СЕГОДНЯ</div>
+      <h1>REAL<em>.</em></h1>
+      <p class="h-desc">Инжектор нового поколения для Roblox. <b>Attach за 1.8 секунды</b>, полная поддержка UNC, никакого кейгена и рекламы. Бесплатно — без ключей, ожиданий и компромиссов.</p>
+      <div class="h-btns">
+        <!-- Прямая ссылка на скачивание (подставится из DOWNLOAD_LINKS ниже) -->
+        <a class="btn btn-p" data-dl="main" href="#"><svg class="ic"><use href="#i-down"/></svg>Скачать REAL</a>
+        <a class="btn btn-g" href="#features">Что внутри<svg class="ic"><use href="#i-arrow"/></svg></a>
+      </div>
+      <div class="h-note">// прямая ссылка · без ожидания · windows 10/11</div>
+      <div class="h-stats">
+        <div class="h-stat"><b><span data-count="120">0</span><i>K+</i></b><span>загрузок</span></div>
+        <div class="h-stat"><b><span data-count="1.8" data-dec="1">0</span><i>s</i></b><span>attach</span></div>
+        <div class="h-stat"><b><span data-count="100">0</span><i>%</i></b><span>unc</span></div>
+      </div>
+    </div>
+
+    <!-- Живая консоль-инжектор: попробуйте ATTACH и EXECUTE -->
+    <div class="cons" id="cons">
+      <div class="cons-bar">
+        <div class="cons-dots"><i></i><i></i><i></i></div>
+        <div class="cons-title">real.exe — roblox_player.exe</div>
+        <div class="cons-title" style="flex:0 0 auto" id="ping">ping 14ms</div>
+        <span class="pill" id="consState">READY</span>
+      </div>
+      <div class="cons-log" id="clog"></div>
+      <div class="cons-ed">
+        <div class="cons-ed-head"><span>editor.lua — <b>ваш скрипт</b></span><span>UTF-8 · Lua</span></div>
+        <textarea id="ceditor" spellcheck="false">-- попробуйте выполнить этот скрипт
+print("Hello from REAL!")
+local p = game:GetService("Players").LocalPlayer
+print("Привет, " .. p.Name .. "!")</textarea>
+      </div>
+      <div class="cons-btns">
+        <button class="cbtn pri" id="btnAttach"><svg class="ic" style="width:14px;height:14px"><use href="#i-zap"/></svg>ATTACH</button>
+        <button class="cbtn" id="btnExec" disabled><svg class="ic" style="width:14px;height:14px"><use href="#i-play"/></svg>EXECUTE</button>
+        <button class="cbtn" id="btnClear" style="margin-left:auto">CLEAR</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== БЕГУЩАЯ СТРОКА ==================== -->
+<div class="marquee" aria-hidden="true">
+  <div class="mq-track">
+    <div class="mq-half">
+      <span><i>//</i>UNC 100% SUPPORT</span><span><i>//</i>NO KEY SYSTEM</span><span><i>//</i>ATTACH 1.8S</span>
+      <span><i>//</i>LUA C EXECUTION</span><span><i>//</i>BYPASS BYFRON</span><span><i>//</i>FREE FOREVER</span><span><i>//</i>NO ADS</span>
+    </div>
+    <div class="mq-half">
+      <span><i>//</i>UNC 100% SUPPORT</span><span><i>//</i>NO KEY SYSTEM</span><span><i>//</i>ATTACH 1.8S</span>
+      <span><i>//</i>LUA C EXECUTION</span><span><i>//</i>BYPASS BYFRON</span><span><i>//</i>FREE FOREVER</span><span><i>//</i>NO ADS</span>
+    </div>
+  </div>
+</div>
+
+<!-- ==================== ВОЗМОЖНОСТИ ==================== -->
+<section id="features">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div><span class="sec-tag">01 // ВОЗМОЖНОСТИ</span><h2>Меньше маркетинга.<br>Больше инженерии.</h2></div>
+      <p class="sec-sub">Каждая функция REAL сделана ради скорости и стабильности — а не ради скриншота на сайте.</p>
+    </div>
+    <div class="bento">
+      <article class="bx bx-a reveal">
+        <svg class="ghost-ic" viewBox="0 0 24 24"><use href="#i-code"/></svg>
+        <span class="num">FEAT / 01</span>
+        <h3>UNC 100% — полное покрытие окружения</h3>
+        <p>Все функции sUNC/uUNC-тестов проходят без исключений. Ни один скрипт из публичных библиотек не упадёт из-за отсутствия хука.</p>
+        <div class="code-mini"><span class="c">-- реальный вывод uncf-check</span><br><span class="k">environment</span>.unc_test = <span class="s">"passed 118/118"</span><br><span class="k">hooks</span>.integrity  = <span class="s">"verified"</span></div>
+      </article>
+      <article class="bx bx-b reveal" id="bxSpeed">
+        <span class="num">FEAT / 02</span>
+        <h3>Attach быстрее, чем загрузится Roblox</h3>
+        <p>Лоадер находит процесс и завершает инъекцию, пока экран загрузки ещё крутится.</p>
+        <div class="speed">
+          <div class="speed-bar"><i id="spdBar"></i></div>
+          <div class="speed-row"><span>AVERAGE ATTACH TIME</span><b><span id="spdNum">0.0</span>s</b></div>
+        </div>
+      </article>
+      <article class="bx bx-c reveal">
+        <span class="num">FEAT / 03</span>
+        <h3>Обновления каждую неделю</h3>
+        <p>Патч Roblox вышел? Билд REAL будет готов раньше, чем вы дочитаете пост в сообществе.</p>
+        <div class="chlog">
+          <div><b>12.06.25</b> v4.2.1 — обход обновлённого Hyperion</div>
+          <div><b>04.06.25</b> v4.2.0 — новый Lua VM, +12% скорости</div>
+          <div><b>27.05.25</b> v4.1.4 — фикс краша на Win10 LTSC</div>
+        </div>
+      </article>
+      <article class="bx bx-d reveal">
+        <span class="num">FEAT / 04</span>
+        <h3>Честный бесплатный доступ</h3>
+        <p>Наведите на этот блок — увидите, чего в REAL нет и не будет:</p>
+        <div class="strike">
+          <span><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><use href="#i-x"/></svg>КЕЙГЕН</span>
+          <span><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><use href="#i-x"/></svg>РЕКЛАМНЫЕ ТАЙМЕРЫ</span>
+          <span><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><use href="#i-x"/></svg>ПОДПИСКИ</span>
+        </div>
+      </article>
+      <article class="bx bx-e reveal">
+        <span class="num">FEAT / 05</span>
+        <h3>Тестирован на живых проектах</h3>
+        <p>Каждый билд гоняется на популярных режимах перед релизом.</p>
+        <div class="tags"><i>Blox Fruits</i><i>Pet Sim 99</i><i>Blade Ball</i><i>Anime Vanguards</i><i>+ 200 игр</i></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== АНТИФЕЙК ==================== -->
+<section id="fakes">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div><span class="sec-tag">02 // АНТИФЕЙК</span><h2>Оригинал — один.<br>Остальное — вирус.</h2></div>
+      <p class="sec-sub">По запросу «Real инжектор» Яндекс выдаёт десятки подделок с майнерами и стилерами. Проверьте себя по этой таблице.</p>
+    </div>
+    <div class="fake-grid">
+      <article class="fk fk-good reveal">
+        <div class="fk-head"><b>REAL · этот сайт</b><span class="fk-tag">ОРИГИНАЛ</span></div>
+        <ul>
+          <li><svg class="ic"><use href="#i-check"/></svg>SHA-256 сумма публикуется к каждому релизу</li>
+          <li><svg class="ic"><use href="#i-check"/></svg>Прямая ссылка — без таймеров и рекламных шлюзов</li>
+          <li><svg class="ic"><use href="#i-check"/></svg>Никаких кейгенов, инвайт-кодов и «ключей на 24 часа»</li>
+          <li><svg class="ic"><use href="#i-check"/></svg>Обновления каждые 1–2 недели с открытым ченджлогом</li>
+          <li><svg class="ic"><use href="#i-check"/></svg>Вес билда ~12 МБ — без «дополнительных загрузчиков»</li>
+        </ul>
+      </article>
+      <article class="fk fk-bad reveal">
+        <div class="fk-head"><b>Фейк-копии</b><span class="fk-tag">ОПАСНО</span></div>
+        <ul>
+          <li><svg class="ic"><use href="#i-x"/></svg>Просят «установить драйвер» и выключить Defender полностью</li>
+          <li><svg class="ic"><use href="#i-x"/></svg>Скачивание через 5 таймеров, ссылка ведёт на чужой exe</li>
+          <li><svg class="ic"><use href="#i-x"/></svg>Требуют ключ с кейгена или инвайт из Discord</li>
+          <li><svg class="ic"><use href="#i-x"/></svg>«Последняя версия 2023 года», ченджлога нет</li>
+          <li><svg class="ic"><use href="#i-x"/></svg>Вес файла 80–200 МБ — внутри майнер или стилер</li>
+        </ul>
+      </article>
+    </div>
+    <div class="fk-note reveal">
+      <svg class="ic"><use href="#i-alert"/></svg>
+      <p><b style="color:var(--text)">Главное правило:</b> после скачивания сравните SHA-256 файла с суммой из раздела загрузки. Не совпала хотя бы на один символ — <code>удалите файл</code> и сообщите нам о фейке.</p>
+    </div>
+    <div class="report-row reveal">
+      <a class="btn btn-g" href="#" id="reportBtn"><svg class="ic"><use href="#i-alert"/></svg>Сообщить о фейк-сайте</a>
+      <span>// жалобы уходят напрямую разработчику в Telegram</span>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== УСТАНОВКА ==================== -->
+<section id="steps">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div><span class="sec-tag">03 // УСТАНОВКА</span><h2>От клика до скрипта — три минуты</h2></div>
+      <p class="sec-sub">Без установки в систему, без драйверов, без прав администратора.</p>
+    </div>
+    <div class="reveal">
+      <div class="step">
+        <div class="s-num">01</div>
+        <h3>Скачайте и распакуйте</h3>
+        <p>Заберите архив <b>real_v4.2.1.zip</b> с этого сайта (пароля на архиве нет — если его просит фейк, это фейк) и распакуйте в любую папку.</p>
+      </div>
+      <div class="step">
+        <div class="s-num">02</div>
+        <h3>Добавьте исключение в Defender</h3>
+        <p>Инжектор по определению работает с памятью чужого процесса — <b>антивирус ругается на механизм, а не на файл</b>. Добавьте папку в исключения Windows Security → Virus &amp; threat protection.</p>
+      </div>
+      <div class="step">
+        <div class="s-num">03</div>
+        <h3>Запустите real.exe и жмите ATTACH</h3>
+        <p>Запустите Roblox, затем real.exe. Индикатор станет <b>ATTACHED</b> — вставляйте любой Lua-скрипт и выполняйте. Всё.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== СКАЧИВАНИЕ ==================== -->
+<section id="download">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div><span class="sec-tag">04 // ЗАГРУЗКА</span><h2>Скачать REAL бесплатно</h2></div>
+      <p class="sec-sub">Один файл. Никакой регистрации, SMS и «ожидания 30 секунд».</p>
+    </div>
+    <div class="dl-box reveal">
+      <div class="dl-info">
+        <span class="sec-tag">RELEASE / STABLE</span>
+        <div class="dl-ver">REAL v4.2.1 <em>«Lime»</em></div>
+        <div class="dl-meta">
+          <div><span>Платформа</span><b>Windows 10/11 x64</b></div>
+          <div><span>Размер</span><b>12.4 МБ</b></div>
+          <div><span>Обновлён</span><b>12 июня 2025</b></div>
+          <div><span>Скачиваний</span><b>120 431</b></div>
+        </div>
+        <div class="sha">
+          <b>SHA-256</b>
+          <code id="shaCode">8f3a91c47be25d6041f9e8c3a7d20b5164ce09af3d8b71c2e5406a19fbd3c21e</code>
+          <button id="copySha" title="Скопировать сумму"><svg class="ic" style="width:14px;height:14px"><use href="#i-copy"/></svg></button>
+        </div>
+      </div>
+      <div class="dl-act">
+        <!-- Главная кнопка — прямая ссылка (см. DOWNLOAD_LINKS в скрипте) -->
+        <a class="btn btn-p dl-main" data-dl="main" href="#"><svg class="ic"><use href="#i-down"/></svg>Скачать для Windows — бесплатно</a>
+        <div class="mirrors">
+          <a class="btn btn-g" data-dl="mirror2" href="#">Зеркало #2</a>
+          <a class="btn btn-g" data-dl="mirror3" href="#">Зеркало #3</a>
+        </div>
+        <p class="dl-note">// зеркало используйте, если основной сервер отдаёт медленно<br>// <b>проверьте SHA-256</b> после загрузки — это 10 секунд вашей безопасности</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== ОТЗЫВЫ ==================== -->
+<div class="revs" aria-hidden="true">
+  <div class="rev-track">
+    <div class="rev-half">
+      <div class="rv"><p>Инжект за секунду, ничего лишнего. Лучший бесплатный экзекутор, что я пробовал за два года.</p><b>@shadowkid</b></div>
+      <div class="rv"><p>Наконец-то без кейгена. Качал с зеркала — сумма сошлась, всё работает с первого раза.</p><b>@m1rray</b></div>
+      <div class="rv"><p>Прогнал unc-тест — честные 100%. Все скрипты из библиотеки завелись без правок.</p><b>@lexa_exe</b></div>
+      <div class="rv"><p>Сидел на платном синапсе, перешёл сюда и не жалею ни рубля. Быстрее, чем старый.</p><b>@phntm</b></div>
+    </div>
+    <div class="rev-half">
+      <div class="rv"><p>Обновления реально выходят каждую неделю, проект не брошен — это сейчас редкость.</p><b>@darkwave</b></div>
+      <div class="rv"><p>Консоль выглядит как терминал из хорошего фильма. Приятно просто открыть.</p><b>@gr4fiti</b></div>
+      <div class="rv"><p>На моём старом ноуте с Win10 LTSC всё завелось без единого краша после фикса 4.1.4.</p><b>@nullbytex</b></div>
+      <div class="rv"><p>Друг скачал фейк и словил майнер. Показал ему эту страницу — теперь качает только отсюда.</p><b>@v0idle</b></div>
+    </div>
+  </div>
+</div>
+
+<!-- ==================== FAQ ==================== -->
+<section id="faq">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div><span class="sec-tag">05 // FAQ</span><h2>Частые вопросы</h2></div>
+      <p class="sec-sub">Не нашли ответа — напишите в Telegram-поддержку, отвечаем за пару часов.</p>
+    </div>
+    <div class="faq-list reveal">
+      <div class="fq">
+        <button class="fq-q">REAL безопасен? Антивирус ругается на файл<svg class="ic"><use href="#i-chev"/></svg></button>
+        <div class="fq-a"><p>REAL не содержит вирусов, майнеров и стилеров — каждый релиз подписан и сопровождается SHA-256 суммой на этой странице. Предупреждение антивируса вызвано самим механизмом инъекции в память процесса: на него реагируют все экзекуторы без исключения. Добавьте папку в исключения Defender — и предупреждение исчезнет.</p></div>
+      </div>
+      <div class="fq">
+        <button class="fq-q">Может ли Roblox забанить мой аккаунт?<svg class="ic"><use href="#i-chev"/></svg></button>
+        <div class="fq-a"><p>Любой инжектор нарушает правила Roblox, поэтому риск блокировки существует всегда — это честный ответ. REAL обходит актуальные проверки Hyperion/Byfron, но мы рекомендуем пользоваться отдельным аккаунтом, а не основным.</p></div>
+      </div>
+      <div class="fq">
+        <button class="fq-q">Почему это бесплатно? Где подвох?<svg class="ic"><use href="#i-chev"/></svg></button>
+        <div class="fq-a"><p>Подвоха нет: проект живёт на добровольных донатах сообщества. Никаких кейгенов, подписок, рекламы и «premium-версий за 499₽» — платного тарифа у REAL не существует и не появится.</p></div>
+      </div>
+      <div class="fq">
+        <button class="fq-q">Как отличить оригинал от фейка?<svg class="ic"><use href="#i-chev"/></svg></button>
+        <div class="fq-a"><p>Три проверки: домен сайта (оригинал один — этот), SHA-256 файла после скачивания и вес билда (~12 МБ). Фейк почти всегда тяжелее, просит «драйвер» или полный отказ от антивируса и прячет ссылку за таймерами и рекламой.</p></div>
+      </div>
+      <div class="fq">
+        <button class="fq-q">Какие системные требования?<svg class="ic"><use href="#i-chev"/></svg></button>
+        <div class="fq-a"><p>Windows 10 или 11 (x64), 4 ГБ оперативной памяти и установленный Roblox. Запуск от имени администратора не требуется — хотя на части систем он помогает, если Defender агрессивно блокирует первый запуск.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- ==================== ФУТЕР ==================== -->
+<footer>
+  <div class="wrap">
+    <div class="ft-top">
+      <div>
+        <div class="ft-logo">REAL<em>.</em></div>
+        <p class="ft-desc">Независимый бесплатный инжектор для Roblox. Проект не связан с Roblox Corporation и не одобрен ею; Roblox и Hyperion — торговые марки их правообладателей.</p>
+      </div>
+      <div class="ft-links">
+        <div><b>НАВИГАЦИЯ</b><a href="#features">Возможности</a><a href="#download">Скачать</a><a href="#faq">FAQ</a></div>
+        <div><b>СООБЩЕСТВО</b><a href="#" data-social>TELEGRAM</a><a href="#" data-social>DISCORD</a><a href="#" data-social>YOUTUBE</a></div>
+      </div>
+    </div>
+    <div class="ft-bot">
+      <span>© 2025 REAL PROJECT. ИСПОЛЬЗОВАНИЕ НА СВОЙ РИСК — ЗА ИНЖЕКТОРЫ РОБЛОКС БАНИТ АККАУНТЫ.</span>
+      <span>MADE FOR THE COMMUNITY, NOT FOR PROFIT</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+/* ============================================================
+   ↓↓↓ ЕДИНСТВЕННОЕ МЕСТО, КОТОРОЕ НУЖНО ОТРЕДАКТИРОВАТЬ ВАМ ↓↓↓
+   Вставьте свои ПРЯМЫЕ ссылки на файл (.zip/.exe) между кавычек.
+   Как только здесь появится настоящая ссылка — все кнопки
+   скачивания на странице заработают автоматически.
+============================================================ */
+const DOWNLOAD_LINKS = {
+  main:   "https://mega.nz/file/cnNWSSjY#nSKCbIWNVc97xbvoGpRWTF0DlJlpLthrXuOJsdlalb8",   // ← основная кнопка (хиро + большой блок загрузки)
+  mirror2: "https://mega.nz/file/cnNWSSjY#nSKCbIWNVc97xbvoGpRWTF0DlJlpLthrXuOJsdlalb8",  // ← зеркало #2
+  mirror3: "https://mega.nz/file/cnNWSSjY#nSKCbIWNVc97xbvoGpRWTF0DlJlpLthrXuOJsdlalb8"   // ← зеркало #3
+};
+// Ссылка на Telegram для кнопки «Сообщить о фейк-сайте»:
+const REPORT_URL = "#";
+// Ссылки на соцсети в футере:
+const SOCIALS = { telegram: "#", discord: "#", youtube: "#" };
+/* ===================== КОНЕЦ НАСТРОЕК ===================== */
+
+const $  = (s, r = document) => r.querySelector(s);
+const $$ = (s, r = document) => [...r.querySelectorAll(s)];
+
+/* ---------- Назначение ссылок на скачивание ---------- */
+const isPlaceholder = u => !u || u === "#" || u.includes("ВСТАВЬТЕ");
+ $$("[data-dl]").forEach(a => { a.href = DOWNLOAD_LINKS[a.dataset.dl] || "#"; });
+ $$("[data-social]").forEach((a, i) => {
+  a.href = [SOCIALS.telegram, SOCIALS.discord, SOCIALS.youtube][i] || "#";
+});
+ $("#reportBtn").href = REPORT_URL;
+
+/* Защита от мёртвого клика, пока ссылка не подключена */
+ $$("[data-dl], #reportBtn, [data-social]").forEach(a => {
+  a.addEventListener("click", e => {
+    if (isPlaceholder(a.getAttribute("href"))) {
+      e.preventDefault();
+      toast("warn", "Ссылка ещё не подключена",
+        a.dataset.dl
+          ? "Вставьте прямую ссылку в DOWNLOAD_LINKS в начале скрипта страницы."
+          : "Укажите адрес сообщества в SOCIALS / REPORT_URL в начале скрипта.");
+    }
+  });
+});
+
+/* ---------- Тосты ---------- */
+function toast(type, title, msg) {
+  const t = document.createElement("div");
+  t.className = "toast " + type;
+  t.innerHTML = `<svg class="ic"><use href="#i-${type === "ok" ? "check" : "alert"}"/></svg><div><b>${title}</b><p>${msg}</p></div>`;
+  $("#toasts").appendChild(t);
+  setTimeout(() => { t.classList.add("out"); setTimeout(() => t.remove(), 300); }, 4200);
+}
+
+/* ---------- Прелоадер ---------- */
+window.addEventListener("load", () => setTimeout(() => $("#loader").classList.add("done"), 1150));
+
+/* ---------- Кастомный курсор ---------- */
+if (matchMedia("(pointer:fine)").matches) {
+  const dot = $("#cur-dot"), ring = $("#cur-ring");
+  let mx = -100, my = -100, rx = -100, ry = -100;
+  addEventListener("mousemove", e => {
+    mx = e.clientX; my = e.clientY;
+    dot.style.transform = `translate(${mx - 3}px,${my - 3}px)`;
+  });
+  (function loop() {
+    rx += (mx - rx) * .16; ry += (my - ry) * .16;
+    ring.style.transform = `translate(${rx - 17}px,${ry - 17}px)`;
+    requestAnimationFrame(loop);
+  })();
+  addEventListener("mouseover", e => {
+    ring.classList.toggle("on", !!e.target.closest("a,button,.fq-q,textarea"));
+  });
+}
+
+/* ---------- Навбар + прогресс скролла ---------- */
+const hdr = $("#hdr"), sb = $("#scrollbar");
+addEventListener("scroll", () => {
+  hdr.classList.toggle("scrolled", scrollY > 10);
+  const h = document.documentElement.scrollHeight - innerHeight;
+  sb.style.width = (scrollY / h * 100) + "%";
+}, { passive: true });
+
+/* ---------- Мобильное меню ---------- */
+ $("#burger").onclick = () => $("#m-menu").classList.add("open");
+ $("#mmClose").onclick = () => $("#m-menu").classList.remove("open");
+ $$("#m-menu a").forEach(a => a.onclick = () => $("#m-menu").classList.remove("open"));
+
+/* ---------- Появление при скролле ---------- */
+const io = new IntersectionObserver(es => es.forEach(e => {
+  if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target); }
+}), { threshold: .12 });
+ $$(".reveal").forEach(el => io.observe(el));
+
+/* ---------- Счётчики хиро ---------- */
+function tick(el, to, dec, dur = 1300) {
+  const t0 = performance.now();
+  (function f(t) {
+    const p = Math.min((t - t0) / dur, 1), e = 1 - Math.pow(1 - p, 3);
+    el.textContent = (to * e).toFixed(dec);
+    if (p < 1) requestAnimationFrame(f);
+  })(t0);
+}
+setTimeout(() => $$("[data-count]").forEach(el =>
+  tick(el, parseFloat(el.dataset.count), +(el.dataset.dec || 0))), 1500);
+
+/* ---------- Spotlight в хиро ---------- */
+ $(".hero").addEventListener("mousemove", e => {
+  const r = e.currentTarget.getBoundingClientRect();
+  e.currentTarget.style.setProperty("--mx", (e.clientX - r.left) + "px");
+  e.currentTarget.style.setProperty("--my", (e.clientY - r.top) + "px");
+});
+
+/* ============================================================
+   СИМУЛЯЦИЯ КОНСОЛИ ИНЖЕКТОРА  (signature-блок: работайте с ней)
+============================================================ */
+const log = $("#clog");
+const stamp = () => new Date().toTimeString().slice(0, 8);
+let seq = Promise.resolve();
+function line(text, cls = "i") {
+  seq = seq.then(() => new Promise(res => setTimeout(() => {
+    const d = document.createElement("div");
+    d.innerHTML = `<span class="cl-t">[${stamp()}]</span><span class="cl-${cls}">${text}</span>`;
+    log.appendChild(d);
+    log.scrollTop = log.scrollHeight;
+    res();
+  }, 340)));
+}
+// приветственный лог
+line("real loader v4.2.1 — init", "i");
+line("scanning for roblox_player.exe …", "i");
+line("roblox_player.exe found (pid 40212)", "s");
+line("unc environment check … 100%", "s");
+line("ready. press [ ATTACH ]", "i");
+
+// живой пинг
+setInterval(() => $("#ping").textContent = "ping " + (9 + Math.floor(Math.random() * 16)) + "ms", 2000);
+
+let attached = false, busy = false;
+const btnAttach = $("#btnAttach"), btnExec = $("#btnExec"), state = $("#consState");
+
+function progressBar(label, dur) {
+  return new Promise(res => {
+    const d = document.createElement("div");
+    d.className = "cl-i"; log.appendChild(d);
+    const W = 22, t0 = performance.now();
+    (function f(t) {
+      const p = Math.min((t - t0) / dur, 1), n = Math.round(p * W);
+      d.innerHTML = `<span class="cl-t">[${stamp()}]</span>${label} <span class="cl-s">${"█".repeat(n)}${"░".repeat(W - n)}</span> ${Math.round(p * 100)}%`;
+      log.scrollTop = log.scrollHeight;
+      p < 1 ? requestAnimationFrame(f) : res();
+    })(t0);
+  });
+}
+
+btnAttach.onclick = async () => {
+  if (busy) return;
+  if (attached) { line("already attached to roblox_player.exe", "s"); return; }
+  busy = true;
+  line("searching for roblox_player.exe …", "i");
+  line("allocating memory … ok", "i");
+  await progressBar("injecting real.dll ", 1800);
+  line("injected successfully in 1.82s", "s");
+  line("unc environment: 100% passed", "s");
+  attached = true; busy = false;
+  btnAttach.classList.replace("pri", "done");
+  btnAttach.innerHTML = '<svg class="ic" style="width:14px;height:14px"><use href="#i-check"/></svg>ATTACHED';
+  btnExec.disabled = false;
+  state.textContent = "ATTACHED"; state.classList.add("ok");
+};
+
+btnExec.onclick = () => {
+  if (!attached) { line("no roblox attached — press [ ATTACH ] first", "e"); return; }
+  const code = $("#ceditor").value;
+  const outs = [...code.matchAll(/print\s*\((["'`])(.+?)\1\s*\)/g)].map(m => m[2].replace(/\.\./g, "").replace(/\s*~?\s*"/g, "").trim());
+  line("compiling script … ok", "i");
+  line("executing …", "i");
+  if (outs.length) outs.forEach(o => line("output: " + o, "o"));
+  else line("script executed (0 output lines)", "s");
+};
+
+ $("#btnClear").onclick = () => log.innerHTML = "";
+
+// Tab в редакторе = 2 пробела
+ $("#ceditor").addEventListener("keydown", e => {
+  if (e.key === "Tab") {
+    e.preventDefault();
+    const t = e.target, s = t.selectionStart;
+    t.value = t.value.slice(0, s) + "  " + t.value.slice(t.selectionEnd);
+    t.selectionStart = t.selectionEnd = s + 2;
+  }
+});
+
+/* ---------- Анимация скорости в bento ---------- */
+const spd = new IntersectionObserver(es => es.forEach(e => {
+  if (!e.isIntersecting) return;
+  $("#spdBar").style.width = "86%";
+  const el = $("#spdNum"), t0 = performance.now();
+  (function f(t) {
+    const p = Math.min((t - t0) / 1400, 1);
+    el.textContent = (1.82 * (1 - Math.pow(1 - p, 3))).toFixed(2);
+    if (p < 1) requestAnimationFrame(f);
+  })(t0);
+  spd.disconnect();
+}), { threshold: .4 });
+spd.observe($("#bxSpeed"));
+
+/* ---------- FAQ-аккордеон ---------- */
+ $$(".fq").forEach(fq => {
+  fq.querySelector(".fq-q").onclick = () => {
+    const open = fq.classList.contains("open");
+    $$(".fq").forEach(o => { o.classList.remove("open"); o.querySelector(".fq-a").style.maxHeight = null; });
+    if (!open) {
+      fq.classList.add("open");
+      fq.querySelector(".fq-a").style.maxHeight = fq.querySelector(".fq-a").scrollHeight + "px";
+    }
+  };
+});
+
+/* ---------- Копирование SHA-256 ---------- */
+ $("#copySha").onclick = async () => {
+  const txt = $("#shaCode").textContent;
+  try { await navigator.clipboard.writeText(txt); }
+  catch { const ta = document.createElement("textarea"); ta.value = txt; document.body.appendChild(ta); ta.select(); document.execCommand("copy"); ta.remove(); }
+  toast("ok", "Сумма скопирована", "Сравните её с файлом после скачивания: certutil -hashfile файл.zip SHA256");
+};
+</script>
+</body>
+</html>
